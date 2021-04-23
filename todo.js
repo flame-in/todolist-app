@@ -24,7 +24,7 @@ var p = new Promise((resolve)  => {
       resolve("Loaded JSON data");
     }
   };
-  xhttp.open("GET", "http://jsonplaceholder.typicode.com/todos", true);
+  xhttp.open("GET", "https://jsonplaceholder.typicode.com/todos", true);
   xhttp.send();
 })
 
